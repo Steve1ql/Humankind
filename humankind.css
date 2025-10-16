@@ -1,0 +1,199 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0d1422;
+    padding: 10px 20px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+nav>div>h1{
+    color: white;
+    font-size: 30px;
+}
+.nav-links>a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.btn1{
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: 60;
+    border: 0;
+    border-radius: 6px;
+    background-color: #d5d6d8;
+
+}.btn1:hover{
+    background-color:white;
+}
+
+header{
+    background: linear-gradient(to bottom, transparent, #0d1422),url(https://cdn.sega.co.uk/humankind-game/public/content/media/images/vector/Logo_HK_Cultures%20of%20Oceania.svg);
+    color: #accee8;
+    
+
+    
+}
+
+
+.buy{
+    background-color: #ced0d2;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+
+.buy:hover{
+    background-color: white;
+    color: #0d1422;
+}
+
+header>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    position: absolute;
+    top: 40%;
+}
+.btn2{
+    position: absolute;
+    top: 75%;
+    padding: 20px 50px;
+    font-size: 18px;
+    font-weight: 30;
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+
+
+}
+.btn2:hover{
+    background-color: white;
+    color: #0d1422;
+
+
+}
+.sec2{
+    height: 110vh;
+    background-color: #0d1422;
+    margin-top: 5px;
+    padding: 50px 0;
+    
+
+
+}
+.pot{
+    display: flex;
+    justify-content: center;
+    
+}
+.vid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 50px;
+    padding: 0px 200px;
+
+    
+   
+}
+.text{
+    color: white ;
+     font-size: medium;
+     
+    
+}
+video{
+    object-fit: cover;
+    width: 100%;
+    padding: 0 30px;
+
+   
+
+}
+.sec3{
+    height: 80vh;
+    background: url(https://cdn.sega.co.uk/humankind-game/public/styles/1920/public/content/media/bg/image/promo-bg.jpg?VersionId=QPqKz3FhOX30sjbSs_6yl0x4DvCT1Pr_&itok=sNi6C55w);
+
+}
+.play{
+    color: black;
+    font-size: 20px;
+
+}
+.playh1{
+    font-size: 80px;
+}
+.boy{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 70px;
+   gap: 15px;
+   
+}
+.girl{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 35%;
+    gap: 10px;
+    font-size: 17px;
+
+}
+.btn3{
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 7px;
+
+}
+.btn3:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
